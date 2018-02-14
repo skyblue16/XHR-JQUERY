@@ -1,5 +1,5 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,48 +8,46 @@
     <link rel="stylesheet" href="main.css">
     <title>XHR-JQUERY</title>
 </head>
-
 <body>
-    <header class="masthead ">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h1 class="center">¿Que te interesa hoy?</h1>
-                </div>
-            </div>
-        </div>
-        <section class="section-form  ">
+    <body>
+        <header class="masthead ">
             <div class="container">
                 <div class="row">
-                    <div class="col s8 offset-s2">
-                        <div class="site-container">
-                            <form id="search-form">
-                                <label for="search-keyword" class="visuallyhidden">¿que buscamos?</label>
-                                <input id="search-keyword" type="text" name="search-keyword" placeholder="e.g. Android" required>
-                                <input id="submit-btn" class="btn" type="submit" value="submit">
-                            </form>
+                    <div class="col s12">
+                        <h1 class="center">¿Que te interesa hoy?</h1>
+                    </div>
+                </div>
+            </div>
+            <section class="section-form  ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s8 offset-s2">
+                            <div class="site-container">
+                                <form id="search-form">
+                                    <label for="search-keyword" class="visuallyhidden">¿que buscamos?</label>
+                                    <input id="search-keyword" type="text" name="search-keyword" placeholder="e.g. Android" required>
+                                    <input id="submit-btn" class="btn" type="submit" value="submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <section class="lista-resultado">
+            <div class="container">
+                <div class="row">
+                    <div class="col s10 offset-s2">
+                        <div class="sire-container">
+                            <ul id="response-container"></ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </header>
-    <section class="lista-resultado">
-        <div class="container">
-            <div class="row">
-                <div class="col s10 offset-s2">
-                    <div class="sire-container">
-                        <ul id="response-container"></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="app.js"></script>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="app.js"></script>
 </body>
-
 </html>
